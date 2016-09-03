@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <title>Hello</title>
+  </head>
+  <body>
+    <main>
+      <aside>
+        <h1>Minicomic.club</h1>
+        <h2>[puts a comic in the mail]</h2>
+        <h2>[gets a comic in the mail]</h2>
+        <p>An "infinitely" scrolling comic about mailing, and getting, comics.</p>
+        <p>Subscribe now</p>
+        <h3>Contributors!</h3>
+        <ul>
+          <% htmlWebpackPlugin.options.contributors.forEach(function(contributor) { %>
+            <li><%= contributor.name %></li>
+          <% }); %>
+        </ul>
+      </aside>
+    </main>
+  </body>
+</html>

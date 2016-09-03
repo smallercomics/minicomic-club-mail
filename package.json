@@ -1,0 +1,22 @@
+{
+  "name": "minicomic-club-mail",
+  "version": "1.0.0",
+  "description": "\"Infinitely\" scrolling comic",
+  "repository": "https://github.com/smallercomics/minicomic-club-mail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack-dev-server --content-base ./dist"
+  },
+  "author": "andrew@smallercomics.com",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.24.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.22.0",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  }
+}
